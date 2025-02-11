@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vehicle Premium Prediction</title>
+</head>
+<body>
+    <h1> Vehicle Premium Prediction</h1>
+    <form method="post" action="/predict">
+        <label>Driver Age</label>
+        <input type="text" name="driverAge"><br><br>
+
+        <label>Driver Experience</label>
+        <input type="text" name="driverExperience"><br><br>
+
+        <label>Previous Accidents</label>
+        <input type="text" name="previousAccidents"><br><br>
+
+        <label>Annual Mileage (x1000 km)</label>
+        <input type="text" name="annualMileage"><br><br>
+
+        <label>Car Manufacturing Year</label>
+        <input type="text" name="carManufacturingYear"><br><br>
+
+        <label>Car Age</label>
+        <input type="text" name="carAge"><br><br>
+
+        <input type="submit" value="Predict"><br><br>
+    </form>
+</body>
+</html>
